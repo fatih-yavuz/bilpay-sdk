@@ -1,0 +1,17 @@
+{
+  "name": "bilpay-sdk",
+  "version": "1.0.0",
+  "description": "Bilpay SDK for receiving payments",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "types": "tsc -d --emitDeclarationOnly --allowJs false --checkJs false --declaration true --declarationDir ./@types",
+    "prepublish": "npm run tsc && npm run types",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bilpay"
+  ],
+  "author": "Fatih Yavuz",
+  "license": "MIT"
+}
