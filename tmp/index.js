@@ -7,4 +7,5 @@ var Transaction_1 = __importDefault(require("./Transaction"));
 var Bilpay_1 = __importDefault(require("./Bilpay"));
 window.Bilpay = Bilpay_1.default;
 window.Transaction = Transaction_1.default;
+exports.default = {};
 //# sourceMappingURL=index.js.map

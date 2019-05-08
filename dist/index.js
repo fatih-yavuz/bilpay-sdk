@@ -461,7 +461,7 @@ eval("\n\nvar __awaiter = this && this.__awaiter || function (thisArg, _argument
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar Transaction_1 = __importDefault(__webpack_require__(/*! ./Transaction */ \"./tmp/Transaction.js\"));\n\nvar Bilpay_1 = __importDefault(__webpack_require__(/*! ./Bilpay */ \"./tmp/Bilpay.js\"));\n\nwindow.Bilpay = Bilpay_1[\"default\"];\nwindow.Transaction = Transaction_1[\"default\"];\n\n//# sourceURL=webpack:///./tmp/index.js?");
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar Transaction_1 = __importDefault(__webpack_require__(/*! ./Transaction */ \"./tmp/Transaction.js\"));\n\nvar Bilpay_1 = __importDefault(__webpack_require__(/*! ./Bilpay */ \"./tmp/Bilpay.js\"));\n\nwindow.Bilpay = Bilpay_1[\"default\"];\nwindow.Transaction = Transaction_1[\"default\"];\nexports[\"default\"] = {};\n\n//# sourceURL=webpack:///./tmp/index.js?");
 
 /***/ }),
 
