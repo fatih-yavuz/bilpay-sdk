@@ -205,6 +205,7 @@ const modal = $('<div>\n' +
 $('.modal-content', modal).css({
     width: '400px',
     height: '400px',
+    display: 'flex',
     position: 'absolute',
     top: '50%',
     left: '50%',

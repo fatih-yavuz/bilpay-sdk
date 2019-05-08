@@ -1,13 +1,13 @@
 {
   "name": "bilpay-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Bilpay SDK for receiving payments",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && webpack",
     "tsc": "tsc -w",
     "types": "tsc -d --emitDeclarationOnly --allowJs false --checkJs false --declaration true --declarationDir ./@types",
-    "prepublish": "npm run tsc && npm run types",
+    "prepublish": "npm run types",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

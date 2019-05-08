@@ -1,1 +1,2 @@
-export declare function greeting(person: string): void;
+declare const _default: {};
+export default _default;
