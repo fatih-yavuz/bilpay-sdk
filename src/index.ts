@@ -1,3 +1,6 @@
-export function greeting(person: string)  {
-    console.log('Good day ' + person);
-};
+import Transaction from "./Transaction";
+import Bilpay from "./Bilpay";
+
+(<any>window).Bilpay = Bilpay;
+(<any>window).Transaction = Transaction;
+
